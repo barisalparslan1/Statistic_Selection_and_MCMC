@@ -3,8 +3,8 @@
 # Brief information about the work
 In this work we focused on Bayesian estimation of an unknown population parameter when a certain statistic is shared with a noise to provide differential privacy. We compared statistics in terms of Fisher information and Mean Squared Error of their Bayesian estimator. For estimating numerical values of Fisher information and  parameters, we utilized state-of-art MCMC algorithms. For details and the results please check the manuscript.  
 
--Barış Alparslan and Sinan Yıldırım 
--Faculty of Engineering and Natural Sciences, Sabancı University, Istanbul, Turkey
+- Barış Alparslan and Sinan Yıldırım 
+- Faculty of Engineering and Natural Sciences, Sabancı University, Istanbul, Turkey
 
 # .main files
 
