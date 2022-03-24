@@ -5,7 +5,7 @@ In this work we focused on Bayesian estimation of an unknown population paramete
 
 Authors: Barış Alparslan and Sinan Yıldırım (Faculty of Engineering and Natural Sciences, Sabancı University, Istanbul, Turkey).
 
-# .main files
+# main files
 
 #### main_CLT_norm_mean.m for the calculations in Example 1:
 FIM calculation for Example 1 in the manuscript. The MCMC algorithm is a MH algorithm.
