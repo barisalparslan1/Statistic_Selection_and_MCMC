@@ -86,24 +86,24 @@ This function calculates the FIM of the noisy individual statistic(sequential re
 ## functions for Bayesian estimation and MSE calculation
 #### MH_DP_CLT_norm_var
 ###### Inputs: shared statistic, initial theta, moment of x, data size, boundary of x, DP level, number of MCMC runs, variance for proposal distribution
-###### output: Fisher information
+###### output: Estimations of the parameter
 
 This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(additive) is shared with Gaussian noise. MCMC: Metropolis-Hastings
 
 #### PMMH_DP_CLT_Lap_norm_var
 ###### Inputs: shared statistic, initial theta, moment of x, data size, boundary of x, DP level, number of MCMC runs, variance for proposal distribution, number of latent variables
-###### output: Fisher information
+###### output: Estimations of the parameter
 
 This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(additive) is shared with Laplace noise. MCMC: Pseudo-marginal Metropolis-Hastings
 
 #### MHAAR_DP_CLT_Lap_norm_var
 ###### Inputs: shared statistic, initial theta, moment of x, data size, boundary of x, DP level, number of MCMC runs, variance for proposal distribution, number of latent variables
-###### output: Fisher information
+###### output: Estimations of the parameter
 
 This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(additive) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio
 
 #### DM_MHAAR_norm_var
 ###### Inputs: shared statistic, moment of x, boundary of x, data size, number of MCMC runs, number of latent variables, DP level, DP variable for smooth sensitivity, initial theta,variance for proposal distribution, name of the statistic
-###### output: Fisher information
+###### output: Estimations of the parameter
 
 This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(non-additive) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio
