@@ -1,7 +1,11 @@
 # Statistic Selection and MCMC for Differentially Private Bayesian Estimation
 
 # Brief information about the work
-In this work we focus on Bayesian inference under privacy constraints by utilizing Differential Privacy paradigm which has became increasingly popular in recent years. We compare statistics in terms of Fisher information and Mean Squared Error using MCMC algorithms. For the details please check the manuscript.  
+In this work we focused on Bayesian estimation of a population parameter when a certain statistic is shared with a noise to provide differential privacy. We compared statistics in terms of Fisher information and Mean Squared Error of a Bayesian estimator uses that statistic. For the estimating numerical values of Fisher information and estimating a parameter we utilized state-of-art MCMC algorithms. For details and the results please check the manuscript.  
+
+Barış Alparslan and Sinan Yıldırım 
+
+Faculty of Engineering and Natural Sciences, Sabancı University, Istanbul, Turkey
 
 # .main files
 
