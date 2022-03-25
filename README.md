@@ -111,3 +111,15 @@ This function calculates the MSE of the estimation for the variance parameter of
 ###### output: Estimations of the parameter
 
 This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(non-additive) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio.
+
+#### MHAAR_RB_DP_norm_mean
+###### Inputs: shared statistic,initial theta, DP level, boundary of x, moment of x,  variance for proposal distribution, number of MCMC runs, number of latent variables
+###### output: Estimations of the parameter
+
+This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the statistic(sequential) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio.
+
+#### MHAAR_RB_DP_norm_var
+###### Inputs: shared statistic,initial theta, DP level, boundary of x, moment of x,  variance for proposal distribution, number of MCMC runs, number of latent variables
+###### output: Estimations of the parameter
+
+This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the statistic(sequential) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio.
