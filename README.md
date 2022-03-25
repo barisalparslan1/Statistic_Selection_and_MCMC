@@ -19,13 +19,13 @@ FIM calculation for Example 1 in the manuscript. The MCMC algorithm is a MH algo
 #### main_CLT_norm_var for the experiments in Section 5.1:
 FIM and MSE calculation for Example 2 and Section 5.1 in the manuscript. The MCMC algorithm is a MH algorithm.
 
-- Use the first code block for obtaining FIM values for Example 2
-- Use the second code block for obtaining MSE values in Section 5.1
-- Use the third code block for plotting FIM and MSE values together
+- Use the first code block for obtaining FIM values for Example 2.
+- Use the second code block for obtaining MSE values in Section 5.1.
+- Use the third code block for plotting FIM and MSE values together.
 
 #### main_FIM_CLT_unif.m for the experiments in Example 3:
 
-- Use the first code block for obtaining FIM values for Example 3
+- Use the first code block for obtaining FIM values for Example 3.
 
 #### main_FIM_binary.m for the experiments in Example 4:
 This is the experiment regarding binary responses.
@@ -61,53 +61,53 @@ FIM approximation and MSE calculation for Section 5.5 in the manuscript. The MCM
 ###### Inputs: DP level, data size, moment of x, boundary of x, mean parameter
 ###### output: Fisher information
 
-This function calculates the FIM of the noisy summary statistic(additive) with respect to the mean parameter of the normal distribution with variance 1. Noise: Gaussian
+This function calculates the FIM of the noisy summary statistic(additive) with respect to the mean parameter of the normal distribution with variance 1. Noise: Gaussian.
 
 #### FIM_DP_norm_var_CLT 
 ###### Inputs: DP level, data size, moment of x, boundary of x, variance parameter
 ###### output: Fisher information
 
-This function calculates the FIM of the noisy summary statistic(additive) with respect to the variance parameter of the normal distribution with mean 0. Noise: Gaussian
+This function calculates the FIM of the noisy summary statistic(additive) with respect to the variance parameter of the normal distribution with mean 0. Noise: Gaussian.
 
 #### FIM_DP_CLT_Lap_norm_var
 ###### Inputs: true variance parameter, moment of x, data size, boundary of x, DP level, size of latent variable, number of MCMC runs
 ###### output: Fisher information
 
-This function calculates the FIM of the noisy summary statistic(additive) with respect to the variance parameter of the normal distribution with mean 0. Noise: Laplace
+This function calculates the FIM of the noisy summary statistic(additive) with respect to the variance parameter of the normal distribution with mean 0. Noise: Laplace.
 
 #### FIM_DP_norm_var
 ###### Inputs: true variance parameter, moment of x, data size, boundary of x, DP level, DP variable for smooth sensitivity, size of latent variable, number of MCMC runs, name of the statistic
 ###### output: Fisher information
 
-This function calculates the FIM of the noisy individual statistic(non-additive) with respect to the variance parameter of the normal distribution with mean 0. Noise: Laplace
+This function calculates the FIM of the noisy individual statistic(non-additive) with respect to the variance parameter of the normal distribution with mean 0. Noise: Laplace.
 
 #### FIM_DP_Lap_seq_release
 ###### Inputs: true variance parameter, moment of x, data size, boundary of x, DP level, size of latent variable, number of MCMC runs
 ###### output: Fisher information
 
-This function calculates the FIM of the noisy individual statistic(sequential release) with respect to the variance parameter of the normal distribution with mean 0. Noise: Laplace
+This function calculates the FIM of the noisy individual statistic(sequential release) with respect to the variance parameter of the normal distribution with mean 0. Noise: Laplace.
 
 ## functions for Bayesian estimation and MSE calculation
 #### MH_DP_CLT_norm_var
 ###### Inputs: shared statistic, initial theta, moment of x, data size, boundary of x, DP level, number of MCMC runs, variance for proposal distribution
 ###### output: Estimations of the parameter
 
-This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(additive) is shared with Gaussian noise. MCMC: Metropolis-Hastings
+This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(additive) is shared with Gaussian noise. MCMC: Metropolis-Hastings.
 
 #### PMMH_DP_CLT_Lap_norm_var
 ###### Inputs: shared statistic, initial theta, moment of x, data size, boundary of x, DP level, number of MCMC runs, variance for proposal distribution, number of latent variables
 ###### output: Estimations of the parameter
 
-This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(additive) is shared with Laplace noise. MCMC: Pseudo-marginal Metropolis-Hastings
+This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(additive) is shared with Laplace noise. MCMC: Pseudo-marginal Metropolis-Hastings.
 
 #### MHAAR_DP_CLT_Lap_norm_var
 ###### Inputs: shared statistic, initial theta, moment of x, data size, boundary of x, DP level, number of MCMC runs, variance for proposal distribution, number of latent variables
 ###### output: Estimations of the parameter
 
-This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(additive) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio
+This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(additive) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio.
 
 #### DM_MHAAR_norm_var
 ###### Inputs: shared statistic, moment of x, boundary of x, data size, number of MCMC runs, number of latent variables, DP level, DP variable for smooth sensitivity, initial theta,variance for proposal distribution, name of the statistic
 ###### output: Estimations of the parameter
 
-This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(non-additive) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio
+This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the summary statistic(non-additive) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio.
