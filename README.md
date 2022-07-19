@@ -58,7 +58,7 @@ FIM approximation and MSE calculation for Section 5.5 in the manuscript. The MCM
 #### main_strategy_comparison.m for the experiments in Section 5.6.
 Comparison of the two strategies (statistic selection and no statistic selection) under uniform population distribution with additive statistic.
 
-- Strategy 1 and Strategy 2 parts are clearly annotated in the file, running the script calculates MSE values for both of the strategies.
+- Strategy 1 and Strategy 2 parts are clearly annotated in the file, you can calculate MSE values for both of the strategies via running the whole script.
 # functions 
 ## functions for FIM calculation
 #### FIM_DP_norm_mean_CLT 
