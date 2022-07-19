@@ -55,7 +55,7 @@ FIM approximation and MSE calculation for Section 5.5 in the manuscript. The MCM
 - Use the second code block for obtaining FIM values in Section 5.5.
 - USe the third code block for plotting FIM and MSE together.
 
-### main_strategy_comparison.m for the experiments in Section 5.6.
+#### main_strategy_comparison.m for the experiments in Section 5.6.
 Comparison of the two strategies (statistic selection and no statistic selection) under uniform population distribution with additive statistic.
 
 - Strategy 1 and Strategy 2 parts are clearly annotated in the file, running the script calculates MSE values for both of the strategies.
