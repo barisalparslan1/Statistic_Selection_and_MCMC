@@ -55,6 +55,10 @@ FIM approximation and MSE calculation for Section 5.5 in the manuscript. The MCM
 - Use the second code block for obtaining FIM values in Section 5.5.
 - USe the third code block for plotting FIM and MSE together.
 
+### main_strategy_comparison.m for the experiments in Section 5.6.
+Comparison of the two strategies (statistic selection and no statistic selection) under uniform population distribution with additive statistic.
+
+- Strategy 1 and Strategy 2 parts are clearly annotated in the file, running the script calculates MSE values for both of the strategies.
 # functions 
 ## functions for FIM calculation
 #### FIM_DP_norm_mean_CLT 
@@ -121,5 +125,9 @@ This function calculates the MSE of the estimation for the variance parameter of
 #### MHAAR_RB_DP_norm_var
 ###### Inputs: shared statistic,initial theta, DP level, boundary of x, moment of x,  variance for proposal distribution, number of MCMC runs, number of latent variables
 ###### output: Estimations of the parameter
+
+#### sample_test_theta
+##### Inputs: shared statistic, number of proposals, initial theta, variance for proposal distribution, mean of prior distribution, variance of prior distribution, moment of x, boundary of x, DP level, data size
+##### Outputs: Estimations of the parameter
 
 This function calculates the MSE of the estimation for the variance parameter of the normal distribution when the statistic(sequential) is shared with Laplace noise. MCMC: Metropolis-Hastings with Averaged Acceptance Ratio.
